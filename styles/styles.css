@@ -130,7 +130,6 @@ header>div>a {
     color: #fff;
 }
 
-
 /* hover effect for call to action link */
 header>div>a:hover {
     color: rgb(255, 255, 255, 0.5);
@@ -217,6 +216,91 @@ header>div>a:hover {
 
 .events>.event-block>.event-text>p {
     margin: 0.5rem 0;
+}
+
+/* Set up learning section */
+.learning {
+    grid-column: full-start / full-end;
+    padding: 3rem 1.5rem;
+    background-color: #f7f7f7;
+}
+
+
+.learning>h1 {
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.course-block {
+    background-color: #fff;
+    padding: 2rem 1.5rem;
+    border: 1px solid #e7e7e7;
+}
+
+.course-block>h2 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.course-block>h3 {
+    font-size: x-small;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.course-block>p {
+    font-size: small;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Set up thesis section */
+.thesis {
+    grid-column: full-start / full-end;
+    padding: 3rem 1.5rem;
+    background-color: #fff;
+}
+
+.thesis>h1 {
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+.thesis-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.thesis-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-item>img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.thesis-item>h2 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.thesis-item>p {
+    font-size: small;
+    color: #666;
+    line-height: 1.5;
 }
 
 /* Start of footer section */
@@ -361,7 +445,6 @@ footer>ul>li:last-child {
     }
 
     /* ? How do we remove the background color for the event: "Special Guest Lecture" */
-
     .events {
         border-left: none;
     }
@@ -371,6 +454,63 @@ footer>ul>li:last-child {
         border-bottom: 1px solid #e7e7e7;
     }
 
+    /* Mobile learning section */
+    .learning {
+        padding: 2rem 1rem;
+    }
+
+    .learning>h1 {
+        font-size: large;
+        margin-bottom: 1.5rem;
+    }
+
+    .courses-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .course-block {
+        padding: 1.5rem 1rem;
+    }
+
+    .course-block>h2 {
+        font-size: medium;
+    }
+
+    .course-block>h3 {
+        font-size: x-small;
+    }
+
+    .course-block>p {
+        font-size: small;
+    }
+
+    /* Mobile thesis section */
+    .thesis {
+        padding: 2rem 1rem;
+    }
+
+    .thesis>h1 {
+        font-size: large;
+        margin-bottom: 1.5rem;
+    }
+
+    .thesis-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .thesis-item>img {
+        margin-bottom: 1rem;
+    }
+
+    .thesis-item>h2 {
+        font-size: medium;
+    }
+
+    .thesis-item>p {
+        font-size: small;
+    }
 }
 
 /* *********************** */
