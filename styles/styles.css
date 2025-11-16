@@ -236,17 +236,18 @@ header>div>a:hover {
 
 /*End of Events*/
 /*start of learnings */
-.section-learning {
+.section-section-learning {
     grid-column: full-start / full-end;
     padding: 2rem 0;
     background-color: #eaebec;
 }
 
-.section-learning>h1 {
-    display: flex;
-    justify-content: center;
+.section-learning > h1 {
+    font-size: x-large;
+    margin-bottom: 2rem;
 }
 
+.learning-grid {
 .learning-grid {
     display: grid;
     gap: 2rem;
@@ -529,7 +530,25 @@ footer>ul>li:last-child {
         font-weight: lighter;
     }
 
-    .events .event-block:last-child {
+    .events>.event-block>img {
+        display: none;
+    }
+
+    .events>.event-block>.events-img-mobile {
+        display: block;
+    }
+
+    /* ?  How do i hide the terms and provacy in responsive mode*/
+    footer>ul {
+        display: none;
+    }
+
+    /* ? How do we remove the background color for the event: "Special Guest Lecture" */
+    .events {
+        border-left: none;
+    }
+
+    .events>.event-block:last-child {
         background-color: #fff;
         border-bottom: 1px solid #e7e7e7;
     }
