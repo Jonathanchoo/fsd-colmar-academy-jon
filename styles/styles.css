@@ -232,6 +232,7 @@ header>div>a:hover {
 .section-learning > h1 {
     font-size: x-large;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .learning-grid {
