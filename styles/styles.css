@@ -223,7 +223,7 @@ header>div>a:hover {
 }
 
 /* Set up learning section */
-.learning {
+.section-learning {
     grid-column: full-start / full-end;
     padding: 2rem 0;
     background-color: #eaebec;
@@ -234,7 +234,7 @@ header>div>a:hover {
     margin-bottom: 2rem;
 }
 
-.courses-container {
+.learning-grid {
     display: grid;
     gap: 2rem;
     /*32px gap between project cards*/
