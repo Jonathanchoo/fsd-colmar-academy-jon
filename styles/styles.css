@@ -222,21 +222,8 @@ header>div>a:hover {
     margin: 0.5rem 0;
 }
 
-.event-text a {
-    color: #65a9e6;
-    /* Light blue from the image */
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.event-text a:hover {
-    color: #468fcc;
-    /* Slightly darker blue for hover */
-}
-
-/*End of Events*/
-/*start of learnings */
-.section-section-learning {
+/* Set up learning section */
+.learning {
     grid-column: full-start / full-end;
     padding: 2rem 0;
     background-color: #eaebec;
@@ -247,8 +234,7 @@ header>div>a:hover {
     margin-bottom: 2rem;
 }
 
-.learning-grid {
-.learning-grid {
+.courses-container {
     display: grid;
     gap: 2rem;
     /*32px gap between project cards*/
