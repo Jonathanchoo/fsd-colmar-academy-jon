@@ -219,19 +219,18 @@ header>div>a:hover {
 }
 
 /* Set up learning section */
-.learning {
+.section-learning {
     grid-column: full-start / full-end;
     padding: 3rem 1.5rem;
     background-color: #f7f7f7;
 }
 
-
-.learning>h1 {
+.section-learning > h1 {
     font-size: x-large;
     margin-bottom: 2rem;
 }
 
-.courses-container {
+.learning-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -340,7 +339,7 @@ footer>ul>li:last-child {
 
 /* Hide events mobile */
 #nav-mobile,
-.events>.event-block>.event-img-mobile {
+.events>.event-block>.events-img-mobile {
     display: none;
 }
 
@@ -435,7 +434,7 @@ footer>ul>li:last-child {
         display: none;
     }
 
-    .events>.event-block>.event-img-mobile {
+    .events>.event-block>.events-img-mobile {
         display: block;
     }
 
